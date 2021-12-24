@@ -1,0 +1,216 @@
+/* Các loại điện thoại màn hình nhỏ */
+@media (max-width: 425px) {
+    .hide {
+        /* visibility: hidden; */
+        animation: sideslip-close ease 1s;
+        transform: translateX(-100%);
+    }
+
+    @keyframes sideslip-close {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .appear {
+        display: block;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .header-info-img {
+        width: 60px;
+        height: 60px;
+        border: 3px solid #2c2f3f;
+    }
+
+    .header-menu-respon {
+        display: block;
+    }
+
+    .body-about-info {
+        flex-direction: column;
+    }
+
+    .body-about-info-img {
+        width: 50%;
+        max-height: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .body-about-info-context {
+        padding: 0 20px;
+    }
+
+    .body-about-info-context-wrapInfo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .body-about-info-context-info2 div {
+        margin-left: 0;
+    }
+
+    .body-about-p {
+        margin: 0 20px;
+    }
+
+    .body-about-facts-index {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .body-resume-p {
+        margin: 0 20px;
+    }
+
+    .wrap-resume {
+        flex-direction: column;
+    }
+
+    .body-services-services-item {
+        width: 90%;
+    }
+
+    .body-contact-wrap {
+        flex-direction: column;
+    }
+
+    .body-contact-wrap-item1 {
+        width: 90%;
+    }
+
+    .body-contact-wrap-item1-location {
+        margin-top: 20px;
+    }
+
+    .body-contact-wrap-item2 {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .body-contact-wrap-item1-map {
+        width: 80%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .body-portfolio-wrap:hover div {
+        height: 40%;
+    }
+
+
+}
+
+/* Điện thoại thông minh và 1 số loại ipad */
+@media(min-width: 426px) and (max-width: 768px) {
+    .hide {
+        /* visibility: hidden; */
+        animation: sideslip-close ease 1s;
+        transform: translateX(-100%);
+    }
+
+    @keyframes sideslip-close {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .appear {
+        display: block;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .header-info-img {
+        width: 60px;
+        height: 60px;
+        border: 3px solid #2c2f3f;
+    }
+
+    .header-menu-respon {
+        display: block;
+    }
+
+    .body-about-info {
+        flex-direction: column;
+    }
+
+    .body-about-info-img {
+        width: 50%;
+        max-height: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .body-about-info-context {
+        padding: 0 20px;
+    }
+
+    .body-about-info-context-wrapInfo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .body-about-info-context-info2 div {
+        margin-left: 0;
+    }
+
+}
+
+/* Các thiết bị nhỏ, máy tính bảng */
+@media(min-width: 769px) and (max-width: 992px) {
+    .hide {
+        /* visibility: hidden; */
+        animation: sideslip-close ease 1s;
+        transform: translateX(-100%);
+    }
+
+    @keyframes sideslip-close {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .appear {
+        display: block;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .header-menu-respon {
+        display: block;
+    }
+
+    .body-about-info {
+        flex-direction: column;
+    }
+
+}
+
+/* Các thiết bị trung bình */
+@media(min-width: 993px) and (max-width: 1200px) {}
+
+/* Các thiết bị lớn */
+@media(min-width: 1201px) {}
